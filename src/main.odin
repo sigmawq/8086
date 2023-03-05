@@ -127,7 +127,7 @@ main :: proc() {
 				dest = temp
 			}
 			fmt.printf("mov %v, %v\n", dest, source)
-		} else if (first_byte >> 1) == 0b110011 { // Immediate to register/memory
+		} else if (first_byte >> 1) == 0b1100011 { // Immediate to register/memory
 			source: string
 			dest: string
 
